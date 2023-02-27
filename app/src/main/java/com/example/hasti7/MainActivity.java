@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        amount.findViewById(R.id.amount);
-        rate.findViewById(R.id.rate);
-        numberofmonths.findViewById(R.id.numberofmonths);
-        calculate.findViewById(R.id.calculate);
-        txtemi.findViewById(R.id.txtemi);
-        TotalAmt.findViewById(R.id.TotalAmt);
-        txtRateAmt.findViewById(R.id.txtRateAmt);
+        amount  = findViewById(R.id.amount);
+        rate = findViewById(R.id.rate);
+        numberofmonths = findViewById(R.id.numberofmonths);
+        calculate = findViewById(R.id.calculate);
+        txtemi = findViewById(R.id.txtemi);
+        TotalAmt = findViewById(R.id.TotalAmt);
+        txtRateAmt = findViewById(R.id.txtRateAmt);
 
         calculate.setOnClickListener(new View.OnClickListener() {
             @Override
